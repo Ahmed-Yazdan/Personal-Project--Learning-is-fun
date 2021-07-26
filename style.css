@@ -1,0 +1,25 @@
+.hover{
+    height:40px;
+}
+#hr1{
+    transition:all 0.3s ease-in-out 0s;
+}
+
+#hr2{
+    transition:all 0.3s ease-in-out 0s;
+}
+
+.hover:hover #hr1{
+    transform:translatey(9px) translatex(-10px) rotate(90deg);
+
+}
+
+.hover:hover #hr2{
+    transform:translatey(-9px) translatex(10px) rotate(90deg);
+}
+
+/* .card img{
+    height:243.984px;
+    width:356px;
+} */
+
